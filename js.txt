@@ -1,0 +1,232 @@
+"// Mock data for SHRI RIDDHI SIDDHI CONSTRUCTION & ASSOCIATES
+
+export const companyInfo = {
+  name: \"SHRI RIDDHI SIDDHI CONSTRUCTION & ASSOCIATES\",
+  tagline: \"We Build Your Dream Spaces with Precision & Trust\",
+  subtitle: \"Architecture | Construction | Interior Design | Turnkey Projects\",
+  phone: [\"+91 70168 16439\", \"+91 95899 67983\"],
+  email: \"rs.constructionassociates@gmail.com\",
+  instagram: \"@RIDDHI_SIDDHICONSTRUCTION\",
+  locations: [
+    {
+      city: \"Morena\",
+      address: \"Near Surya Offset, Infront of Central G.S.T Office, Morena\"
+    },
+    {
+      city: \"Gwalior\",
+      address: \"Dana Bada Main Road, Yodha Gym, New Railway Bridge, Gwalior\"
+    }
+  ]
+};
+
+export const services = [
+  {
+    id: 1,
+    title: \"Architecture & Building Design\",
+    description: \"Innovative architectural solutions that blend aesthetics with functionality. Our expert team creates designs that stand the test of time.\",
+    icon: \"Building2\"
+  },
+  {
+    id: 2,
+    title: \"Interior Designing\",
+    description: \"Transform your spaces with our premium interior design services. We create beautiful, functional interiors tailored to your lifestyle.\",
+    icon: \"Palette\"
+  },
+  {
+    id: 3,
+    title: \"3D Elevation & Walkthroughs\",
+    description: \"Visualize your dream project before construction begins. Photorealistic 3D renderings and virtual walkthroughs for complete clarity.\",
+    icon: \"Box\"
+  },
+  {
+    id: 4,
+    title: \"Renovation & Remodeling\",
+    description: \"Breathe new life into existing spaces. Expert renovation services that enhance value and functionality of your property.\",
+    icon: \"Hammer\"
+  },
+  {
+    id: 5,
+    title: \"Property Dealing\",
+    description: \"Trusted property consultation services. We help you find, evaluate, and secure the perfect property for your needs.\",
+    icon: \"Home\"
+  },
+  {
+    id: 6,
+    title: \"Vastu Consultation\",
+    description: \"Harmonize your spaces with ancient Vastu principles. Expert guidance for positive energy and prosperity in your projects.\",
+    icon: \"Compass\"
+  }
+];
+
+export const projects = [
+  {
+    id: 1,
+    title: \"Modern Villa Project\",
+    location: \"Morena\",
+    image: \"https://images.unsplash.com/photo-1706855203772-c249b75fe016?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwzfHxjb250ZW1wb3JhcnklMjBob3VzZSUyMGV4dGVyaW9yfGVufDB8fHx8MTc3NTY0MDAwNnww&ixlib=rb-4.1.0&q=85\",
+    category: \"Residential\"
+  },
+  {
+    id: 2,
+    title: \"Luxury Residence\",
+    location: \"Gwalior\",
+    image: \"https://images.unsplash.com/photo-1706808849827-7366c098b317?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwyfHxjb250ZW1wb3JhcnklMjBob3VzZSUyMGV4dGVyaW9yfGVufDB8fHx8MTc3NTY0MDAwNnww&ixlib=rb-4.1.0&q=85\",
+    category: \"Residential\"
+  },
+  {
+    id: 3,
+    title: \"Contemporary Home\",
+    location: \"Morena\",
+    image: \"https://images.unsplash.com/photo-1706808849777-96e0d7be3bb7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwxfHxjb250ZW1wb3JhcnklMjBob3VzZSUyMGV4dGVyaW9yfGVufDB8fHx8MTc3NTY0MDAwNnww&ixlib=rb-4.1.0&q=85\",
+    category: \"Residential\"
+  },
+  {
+    id: 4,
+    title: \"Classic Villa Design\",
+    location: \"Gwalior\",
+    image: \"https://images.pexels.com/photos/7031408/pexels-photo-7031408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\",
+    category: \"Residential\"
+  }
+];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: \"Rajesh Kumar\",
+    location: \"Morena\",
+    rating: 5,
+    text: \"Outstanding work! The team completed our dream home on time with exceptional quality. Er. Saurabh's attention to detail and transparent communication made the entire process smooth.\",
+    project: \"3BHK Villa\"
+  },
+  {
+    id: 2,
+    name: \"Priya Sharma\",
+    location: \"Gwalior\",
+    rating: 5,
+    text: \"Best construction company in the region! Professional team, quality materials, and honest pricing. Our house turned out even better than we imagined. Highly recommended!\",
+    project: \"Duplex House\"
+  },
+  {
+    id: 3,
+    name: \"Amit Verma\",
+    location: \"Morena\",
+    rating: 5,
+    text: \"Excellent interior design work! They transformed our old house into a modern, beautiful home. The 3D visualization helped us see the final result beforehand. Very satisfied!\",
+    project: \"Home Renovation\"
+  },
+  {
+    id: 4,
+    name: \"Sunita Agarwal\",
+    location: \"Gwalior\",
+    rating: 5,
+    text: \"Trustworthy and reliable! From architecture to final handover, everything was handled professionally. The Vastu consultation was an added benefit. Worth every rupee spent!\",
+    project: \"4BHK Villa\"
+  },
+  {
+    id: 5,
+    name: \"Vikram Singh\",
+    location: \"Morena\",
+    rating: 5,
+    text: \"Top-notch construction quality! The structural strength and finishing work is excellent. Er. Saurabh personally supervised the project. Very happy with our new home!\",
+    project: \"Independent House\"
+  }
+];
+
+export const whyChooseUs = [
+  {
+    id: 1,
+    title: \"High Quality Work\",
+    description: \"Superior construction standards with premium materials and expert craftsmanship\",
+    icon: \"Award\"
+  },
+  {
+    id: 2,
+    title: \"On-Time Delivery\",
+    description: \"Committed to deadlines with efficient project management and execution\",
+    icon: \"Clock\"
+  },
+  {
+    id: 3,
+    title: \"Transparent Pricing\",
+    description: \"No hidden costs, clear quotations, and honest billing throughout the project\",
+    icon: \"DollarSign\"
+  },
+  {
+    id: 4,
+    title: \"Experienced Engineers\",
+    description: \"Qualified professionals with years of expertise in construction and design\",
+    icon: \"UserCheck\"
+  },
+  {
+    id: 5,
+    title: \"Customer Satisfaction\",
+    description: \"Dedicated to exceeding expectations with personalized attention to every project\",
+    icon: \"ThumbsUp\"
+  },
+  {
+    id: 6,
+    title: \"Complete Support\",
+    description: \"End-to-end service from design to execution with post-construction support\",
+    icon: \"Shield\"
+  }
+];
+
+export const stats = [
+  { label: \"Projects Completed\", value: \"50+\", icon: \"Building\" },
+  { label: \"Happy Clients\", value: \"100+\", icon: \"Users\" },
+  { label: \"Years Experience\", value: \"10+\", icon: \"Calendar\" },
+  { label: \"Expert Team\", value: \"25+\", icon: \"Wrench\" }
+];
+
+export const faqs = [
+  {
+    id: 1,
+    question: \"What services does SHRI RIDDHI SIDDHI CONSTRUCTION offer?\",
+    answer: \"We offer comprehensive construction services including Architecture & Building Design, Interior Designing, 3D Elevation & Walkthroughs, Renovation & Remodeling, Property Dealing, and Vastu Consultation.\"
+  },
+  {
+    id: 2,
+    question: \"What areas do you serve?\",
+    answer: \"We primarily serve Morena and Gwalior regions with our offices located in both cities. We also undertake projects in nearby areas based on project requirements.\"
+  },
+  {
+    id: 3,
+    question: \"How long does a typical construction project take?\",
+    answer: \"Project timelines vary based on scope and complexity. A typical residential construction takes 8-12 months. We provide detailed timelines during consultation and ensure on-time delivery.\"
+  },
+  {
+    id: 4,
+    question: \"Do you provide 3D visualization before construction?\",
+    answer: \"Yes! We provide detailed 3D elevations and virtual walkthroughs so you can visualize your dream project before construction begins. This helps in making informed decisions.\"
+  },
+  {
+    id: 5,
+    question: \"What is your pricing structure?\",
+    answer: \"We offer transparent and competitive pricing based on project requirements. After site visit and understanding your needs, we provide detailed quotations with no hidden costs.\"
+  },
+  {
+    id: 6,
+    question: \"Do you handle government approvals and permissions?\",
+    answer: \"Yes, we assist with all necessary government approvals, building permissions, and documentation required for construction projects.\"
+  }
+];
+
+export const instagramPosts = [
+  {
+    id: 1,
+    image: \"https://images.unsplash.com/photo-1666037805138-f227944ed8d7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwzfHxwcmVtaXVtJTIwaW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8fHwxNzc1NjQwMDExfDA&ixlib=rb-4.1.0&q=85\"
+  },
+  {
+    id: 2,
+    image: \"https://images.unsplash.com/photo-1679862342541-e408d4f3ab80?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHwyfHxwcmVtaXVtJTIwaW50ZXJpb3IlMjBkZXNpZ258ZW58MHx8fHwxNzc1NjQwMDExfDA&ixlib=rb-4.1.0&q=85\"
+  },
+  {
+    id: 3,
+    image: \"https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+  },
+  {
+    id: 4,
+    image: \"https://images.pexels.com/photos/7031408/pexels-photo-7031408.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940\"
+  }
+];
+"
